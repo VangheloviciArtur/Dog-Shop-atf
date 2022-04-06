@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "testFiles": "**/*.{feature,features}",
+  "integrationFolder": "cypress/features",
+  "pluginsFile": "./cypress/plugins/index.js",
+  "supportFile": "./cypress/support/index.js",
+  "defaultCommandTimeout": 30000,
+  "pageLoadTimeout": 60000,
+  "ignoreTestFiles": ["*.ts", "*.md"],
+  "failOnStatusCode": false,
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "video": false
+}
+
